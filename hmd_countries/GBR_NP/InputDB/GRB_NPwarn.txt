@@ -1,0 +1,3 @@
+WARNING:  The data given here represent only the civilian population. During the period between pre-war and post-war census (1939-50),
+population estimates exclude the military while death counts exclude military deaths that occurred abroad. For all other years, the period data
+in this series represent the total population. For details, please see the Background and Documentation.

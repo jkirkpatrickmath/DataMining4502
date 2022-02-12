@@ -1,0 +1,18 @@
+WARNING: The data for Maori can be used only as a guide for research due
+to data quality problems. The most inconsistent are mortality estimates
+at older ages, which are problematic even for the most recent years.
+Data before and after 1996 are based on different definitions of
+ethnicity. For details, please see the Background and Documentation
+file. 
+
+
+
+
+
+
+
+
+
+
+
+

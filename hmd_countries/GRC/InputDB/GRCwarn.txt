@@ -1,0 +1,1 @@
+WARNING: Data for the years 1981 to 1991 are of lower quality than for subsequent years and should thus be used with caution. Estimates of old age mortality should be treated with extra caution even for the 2000s. For details, please refer to the "Data Quality Issues" section of the Background and Documentation file.

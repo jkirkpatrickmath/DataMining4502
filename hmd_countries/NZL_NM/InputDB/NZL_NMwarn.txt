@@ -1,0 +1,18 @@
+WARNING: The quality of the data for 1901-1947 are lower than in later
+years and should be used with extra caution. During 1914-21 and 1939-47,
+deaths reported by the military authority are not included, and
+population estimates exclude active military personnel. For details,
+please see the Background and Documentation file.
+
+
+
+
+
+
+
+
+
+
+
+
+

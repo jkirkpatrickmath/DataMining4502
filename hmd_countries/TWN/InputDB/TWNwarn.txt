@@ -1,0 +1,1 @@
+WARNING: The data before 1980 are of lower quality than in later years and should be used with caution. There is also evidence suggesting possible data quality problems above age 80 even in recent years. For details, please see the "Data Quality Issues" section of the Background and Documentation file.
