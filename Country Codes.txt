@@ -1,0 +1,46 @@
+Differences:
+Australia AUS2 = AUS
+AUT
+BEL
+BGR
+HRV (Croatia)
+CHL
+CZE
+DNK
+Great Britain GBRTENW (England and Wales), GBR_NR, GBR_SCO = GBR
+EST
+FIN
+France FRATNP = FRA
+Germany DEUTNP = DEU
+GRC
+HUN
+ISL (Iceland)
+ISR (Israel)
+ITA
+LVA (Latvia)
+LTU (Lithuani)
+LUX
+NLD (Netherlands)
+New Zealand NZL_NP = NZL
+NOR
+POL
+PRT
+KOR
+RUS
+SVN (Slovenia)
+SVK (Slovakia)
+ESP (Spain)
+CHE (Switzerland)
+SWE
+TWN
+USA
+
+Verify country codes in each dataset and make equal
+
+To do:
+1) Convert date
+2) Split by country
+3) extract weekly/daily columns
+4) resample from days to weeks
+5) join daily and weekly
+6) concatenate all countries together
