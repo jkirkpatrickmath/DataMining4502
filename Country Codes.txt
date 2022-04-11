@@ -7,7 +7,7 @@ HRV (Croatia)
 CHL
 CZE
 DNK
-Great Britain GBRTENW (England and Wales), GBR_NR, GBR_SCO = GBR
+Great Britain GBRTENW (England and Wales), GBR_NIR, GBR_SCO = GBR
 EST
 FIN
 France FRATNP = FRA
