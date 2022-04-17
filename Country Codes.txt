@@ -18,7 +18,7 @@ ISL (Iceland)
 ISR (Israel)
 ITA
 LVA (Latvia)
-LTU (Lithuani)
+LTU (Lithuania)
 LUX
 NLD (Netherlands)
 New Zealand NZL_NP = NZL
