@@ -1,1 +1,0 @@
-France, Total National Population 

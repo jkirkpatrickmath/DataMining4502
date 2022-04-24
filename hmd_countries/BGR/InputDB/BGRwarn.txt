@@ -1,8 +1,0 @@
-WARNING: The quality of the data for 1947-1969 is lower than that in later years, and these data, especially at ages above 60, should be used with caution. 
-
-Population estimates for 2002-2010 should also be used with caution as they do not reflect actual migration during this period. 
-
-For details, please see the "Data Quality Issues" section of the Background and Documentation file (for Bulgaria). 
-
-
-

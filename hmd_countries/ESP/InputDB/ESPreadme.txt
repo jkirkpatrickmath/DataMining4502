@@ -1,1 +1,0 @@
-Spain, Total National Population 

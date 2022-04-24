@@ -1,7 +1,0 @@
-WARNING: The quality of the data for 1959-1969 is lower than in later years, 
-and therefore estimates of life expectancy at birth and at older ages may 
-be overestimated during this period. Likewise, estimates of life expectancy 
-at age 80 may be too high even as late as the 1970s. For details, please see 
-the "Data Quality Issues" section of the 
-<a href="http://www.mortality.org/PrivRegistered/BLR/InputDB/BLRcom.pdf">
-Background and Documentation</a> file.

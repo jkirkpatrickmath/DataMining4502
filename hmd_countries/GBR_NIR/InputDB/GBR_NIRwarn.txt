@@ -1,4 +1,0 @@
-WARNING: The quality of the data for Northern Ireland for 1922-1980 are lower than in later years and should be used with caution. The
-population estimates calculated according to the HMD Methods protocol for this period do not account for large and irregular migrations 
-during the inter-censal periods and should be used with extra caution. For details, please see the "Data Quality Issues" section of the 
-Background and Documentation file. 

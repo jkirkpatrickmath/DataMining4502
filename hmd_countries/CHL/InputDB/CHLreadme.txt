@@ -1,1 +1,0 @@
-Chile, National Total Population
