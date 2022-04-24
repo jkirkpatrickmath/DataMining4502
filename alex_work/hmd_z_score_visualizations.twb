@@ -54,16 +54,16 @@
             <column datatype='real' name='excess_mortality' ordinal='8' />
             <column datatype='real' name='em_per_capita' ordinal='9' />
             <column datatype='real' name='normalized_em' ordinal='10' />
-            <column datatype='string' name='total_cases' ordinal='11' />
-            <column datatype='string' name='new_cases' ordinal='12' />
-            <column datatype='string' name='total_deaths' ordinal='13' />
-            <column datatype='string' name='new_deaths' ordinal='14' />
-            <column datatype='string' name='total_cases_per_million' ordinal='15' />
-            <column datatype='string' name='hosp_patients' ordinal='16' />
-            <column datatype='string' name='population' ordinal='17' />
-            <column datatype='string' name='mov_avg_cases' ordinal='18' />
-            <column datatype='string' name='new_cases_per_capita' ordinal='19' />
-            <column datatype='string' name='normalized_cases' ordinal='20' />
+            <column datatype='real' name='total_cases' ordinal='11' />
+            <column datatype='real' name='new_cases' ordinal='12' />
+            <column datatype='real' name='total_deaths' ordinal='13' />
+            <column datatype='real' name='new_deaths' ordinal='14' />
+            <column datatype='real' name='total_cases_per_million' ordinal='15' />
+            <column datatype='real' name='hosp_patients' ordinal='16' />
+            <column datatype='real' name='population' ordinal='17' />
+            <column datatype='real' name='mov_avg_cases' ordinal='18' />
+            <column datatype='real' name='new_cases_per_capita' ordinal='19' />
+            <column datatype='real' name='normalized_cases' ordinal='20' />
             <column datatype='real' name='em_z_score' ordinal='21' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
@@ -80,16 +80,16 @@
             <column datatype='real' name='excess_mortality' ordinal='8' />
             <column datatype='real' name='em_per_capita' ordinal='9' />
             <column datatype='real' name='normalized_em' ordinal='10' />
-            <column datatype='string' name='total_cases' ordinal='11' />
-            <column datatype='string' name='new_cases' ordinal='12' />
-            <column datatype='string' name='total_deaths' ordinal='13' />
-            <column datatype='string' name='new_deaths' ordinal='14' />
-            <column datatype='string' name='total_cases_per_million' ordinal='15' />
-            <column datatype='string' name='hosp_patients' ordinal='16' />
-            <column datatype='string' name='population' ordinal='17' />
-            <column datatype='string' name='mov_avg_cases' ordinal='18' />
-            <column datatype='string' name='new_cases_per_capita' ordinal='19' />
-            <column datatype='string' name='normalized_cases' ordinal='20' />
+            <column datatype='real' name='total_cases' ordinal='11' />
+            <column datatype='real' name='new_cases' ordinal='12' />
+            <column datatype='real' name='total_deaths' ordinal='13' />
+            <column datatype='real' name='new_deaths' ordinal='14' />
+            <column datatype='real' name='total_cases_per_million' ordinal='15' />
+            <column datatype='real' name='hosp_patients' ordinal='16' />
+            <column datatype='real' name='population' ordinal='17' />
+            <column datatype='real' name='mov_avg_cases' ordinal='18' />
+            <column datatype='real' name='new_cases_per_capita' ordinal='19' />
+            <column datatype='real' name='normalized_cases' ordinal='20' />
             <column datatype='real' name='em_z_score' ordinal='21' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
@@ -123,7 +123,6 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>week</remote-name>
@@ -135,7 +134,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>year</remote-name>
@@ -147,7 +145,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>DTotal</remote-name>
@@ -159,7 +156,6 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>date</remote-name>
@@ -171,7 +167,6 @@
             <local-type>date</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>mov_avg</remote-name>
@@ -183,7 +178,6 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>years_relative</remote-name>
@@ -195,7 +189,6 @@
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>pred_deaths</remote-name>
@@ -207,7 +200,6 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>excess_mortality</remote-name>
@@ -219,7 +211,6 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>em_per_capita</remote-name>
@@ -231,7 +222,6 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>normalized_em</remote-name>
@@ -243,167 +233,126 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>total_cases</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[total_cases]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>total_cases</remote-alias>
             <ordinal>11</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>new_cases</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[new_cases]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>new_cases</remote-alias>
             <ordinal>12</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>total_deaths</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[total_deaths]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>total_deaths</remote-alias>
             <ordinal>13</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>new_deaths</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[new_deaths]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>new_deaths</remote-alias>
             <ordinal>14</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>total_cases_per_million</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[total_cases_per_million]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>total_cases_per_million</remote-alias>
             <ordinal>15</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>hosp_patients</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[hosp_patients]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>hosp_patients</remote-alias>
             <ordinal>16</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>population</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[population]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>population</remote-alias>
             <ordinal>17</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>mov_avg_cases</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[mov_avg_cases]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>mov_avg_cases</remote-alias>
             <ordinal>18</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>new_cases_per_capita</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[new_cases_per_capita]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>new_cases_per_capita</remote-alias>
             <ordinal>19</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>normalized_cases</remote-name>
-            <remote-type>129</remote-type>
+            <remote-type>5</remote-type>
             <local-name>[normalized_cases]</local-name>
             <parent-name>[z_score.csv]</parent-name>
             <remote-alias>normalized_cases</remote-alias>
             <ordinal>20</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
             <approx-count>1</approx-count>
-            <scale>1</scale>
-            <width>1073741823</width>
             <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>em_z_score</remote-name>
@@ -415,7 +364,6 @@
             <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[z_score.csv_32D5D89221024D518D951544D6236668]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -427,19 +375,19 @@
       <column caption='Em Per Capita' datatype='real' name='[em_per_capita]' role='measure' type='quantitative' />
       <column caption='Em Z Score' datatype='real' name='[em_z_score]' role='measure' type='quantitative' />
       <column caption='Excess Mortality' datatype='real' name='[excess_mortality]' role='measure' type='quantitative' />
-      <column caption='Hosp Patients' datatype='string' name='[hosp_patients]' role='dimension' type='nominal' />
+      <column caption='Hosp Patients' datatype='real' name='[hosp_patients]' role='dimension' type='ordinal' />
       <column caption='Mov Avg' datatype='real' name='[mov_avg]' role='measure' type='quantitative' />
-      <column caption='Mov Avg Cases' datatype='string' name='[mov_avg_cases]' role='dimension' type='nominal' />
-      <column caption='New Cases' datatype='string' name='[new_cases]' role='dimension' type='nominal' />
-      <column caption='New Cases Per Capita' datatype='string' name='[new_cases_per_capita]' role='dimension' type='nominal' />
-      <column caption='New Deaths' datatype='string' name='[new_deaths]' role='dimension' type='nominal' />
-      <column caption='Normalized Cases' datatype='string' name='[normalized_cases]' role='dimension' type='nominal' />
+      <column caption='Mov Avg Cases' datatype='real' name='[mov_avg_cases]' role='dimension' type='ordinal' />
+      <column caption='New Cases' datatype='real' name='[new_cases]' role='dimension' type='ordinal' />
+      <column caption='New Cases Per Capita' datatype='real' name='[new_cases_per_capita]' role='dimension' type='ordinal' />
+      <column caption='New Deaths' datatype='real' name='[new_deaths]' role='dimension' type='ordinal' />
+      <column caption='Normalized Cases' datatype='real' name='[normalized_cases]' role='dimension' type='ordinal' />
       <column caption='Normalized Em' datatype='real' name='[normalized_em]' role='measure' type='quantitative' />
-      <column caption='Population' datatype='string' name='[population]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='real' name='[population]' role='dimension' type='ordinal' />
       <column caption='Pred Deaths' datatype='real' name='[pred_deaths]' role='measure' type='quantitative' />
-      <column caption='Total Cases' datatype='string' name='[total_cases]' role='dimension' type='nominal' />
-      <column caption='Total Cases Per Million' datatype='string' name='[total_cases_per_million]' role='dimension' type='nominal' />
-      <column caption='Total Deaths' datatype='string' name='[total_deaths]' role='dimension' type='nominal' />
+      <column caption='Total Cases' datatype='real' name='[total_cases]' role='dimension' type='ordinal' />
+      <column caption='Total Cases Per Million' datatype='real' name='[total_cases_per_million]' role='dimension' type='ordinal' />
+      <column caption='Total Deaths' datatype='real' name='[total_deaths]' role='dimension' type='ordinal' />
       <column caption='Week' datatype='integer' name='[week]' role='dimension' type='quantitative' />
       <column caption='Year' datatype='integer' name='[year]' role='dimension' type='quantitative' />
       <column caption='Years Relative' datatype='integer' name='[years_relative]' role='measure' type='quantitative' />
@@ -579,16 +527,16 @@
                   <column datatype='real' name='excess_mortality' ordinal='8' />
                   <column datatype='real' name='em_per_capita' ordinal='9' />
                   <column datatype='real' name='normalized_em' ordinal='10' />
-                  <column datatype='string' name='total_cases' ordinal='11' />
-                  <column datatype='string' name='new_cases' ordinal='12' />
-                  <column datatype='string' name='total_deaths' ordinal='13' />
-                  <column datatype='string' name='new_deaths' ordinal='14' />
-                  <column datatype='string' name='total_cases_per_million' ordinal='15' />
-                  <column datatype='string' name='hosp_patients' ordinal='16' />
-                  <column datatype='string' name='population' ordinal='17' />
-                  <column datatype='string' name='mov_avg_cases' ordinal='18' />
-                  <column datatype='string' name='new_cases_per_capita' ordinal='19' />
-                  <column datatype='string' name='normalized_cases' ordinal='20' />
+                  <column datatype='real' name='total_cases' ordinal='11' />
+                  <column datatype='real' name='new_cases' ordinal='12' />
+                  <column datatype='real' name='total_deaths' ordinal='13' />
+                  <column datatype='real' name='new_deaths' ordinal='14' />
+                  <column datatype='real' name='total_cases_per_million' ordinal='15' />
+                  <column datatype='real' name='hosp_patients' ordinal='16' />
+                  <column datatype='real' name='population' ordinal='17' />
+                  <column datatype='real' name='mov_avg_cases' ordinal='18' />
+                  <column datatype='real' name='new_cases_per_capita' ordinal='19' />
+                  <column datatype='real' name='normalized_cases' ordinal='20' />
                   <column datatype='real' name='em_z_score' ordinal='21' />
                 </columns>
               </relation>
@@ -599,6 +547,48 @@
     </datasource>
   </datasources>
   <worksheets>
+    <worksheet name='Cases vs. Excess Mortality'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='z_score' name='federated.0qh3y4s10vavrt1bxqljm0k7xzat' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qh3y4s10vavrt1bxqljm0k7xzat'>
+            <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+            <column caption='Date' datatype='date' name='[date]' role='dimension' type='ordinal' />
+            <column caption='Excess Mortality' datatype='real' name='[excess_mortality]' role='measure' type='quantitative' />
+            <column-instance column='[country]' derivation='None' name='[none:country:nk]' pivot='key' type='nominal' />
+            <column-instance column='[date]' derivation='None' name='[none:date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[excess_mortality]' derivation='Sum' name='[sum:excess_mortality:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[date]' derivation='Week-Trunc' name='[twk:date:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:country:nk]'>
+            <groupfilter function='member' level='[none:country:nk]' member='&quot;USA&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='quantitative' column='[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:date:qk]' included-values='in-range'>
+            <min>#2020-01-01#</min>
+            <max>#2022-01-02#</max>
+          </filter>
+          <slices>
+            <column>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:country:nk]</column>
+            <column>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:date:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[sum:excess_mortality:qk]</rows>
+        <cols>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[twk:date:qk]</cols>
+      </table>
+      <simple-id uuid='{11EB98FA-D3F0-409C-BB07-E21F0A51E297}' />
+    </worksheet>
     <worksheet name='Z-Score Excess Mortality'>
       <table>
         <view>
@@ -718,8 +708,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='10' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='12' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone h='49000' id='8' mode='checkdropdown' name='Z-Score Excess Mortality' param='[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:country:nk]' type-v2='filter' w='16000' x='83200' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -762,7 +752,7 @@
     </dashboard>
   </dashboards>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Z-Score Excess Mortality'>
+    <window class='worksheet' name='Z-Score Excess Mortality'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -814,8 +804,180 @@
       <active id='3' />
       <simple-id uuid='{89CBE020-B8DF-4F37-88C4-691173ED32BE}' />
     </window>
+    <window class='worksheet' maximized='true' name='Cases vs. Excess Mortality'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:country:nk]</field>
+            <field>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[none:date:qk]</field>
+            <field>[federated.0qh3y4s10vavrt1bxqljm0k7xzat].[yr:date:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6FD2469F-0ADA-4467-9E80-1611B09FF05F}' />
+    </window>
   </windows>
   <thumbnails>
+    <thumbnail height='192' name='Cases vs. Excess Mortality' width='192'>
+      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
+      s1PEyA4cQroAAAAASUVORK5CYII=
+    </thumbnail>
     <thumbnail height='192' name='Dashboard 1' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAgAElEQVR4nOy9Z5AlV3bn90v/vCtv2lRXe4NGA2jYcZgBOBzD5XKWJkiuRIoMbSiWUmwE
